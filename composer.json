@@ -1,0 +1,26 @@
+{
+	"name": "cheeky-robots/theme",
+	"description": "Cheeky Robots WordPress block theme",
+	"type": "wordpress-theme",
+	"license": "GPL-2.0-or-later",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"phpcompatibility/phpcompatibility-wp": "*",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"rector/rector": "^1.0",
+		"phpunit/phpunit": "^10.0",
+		"yoast/phpunit-polyfills": "^2.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"scripts": {
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf",
+		"rector": "rector process --dry-run",
+		"rector:fix": "rector process",
+		"test": "phpunit"
+	}
+}

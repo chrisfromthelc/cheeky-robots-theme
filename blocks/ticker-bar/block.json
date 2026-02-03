@@ -1,0 +1,52 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "cheeky-robots/ticker-bar",
+	"version": "1.0.0",
+	"title": "Ticker Bar",
+	"category": "design",
+	"icon": "megaphone",
+	"description": "A continuously scrolling horizontal ticker bar.",
+	"textdomain": "cheeky-robots",
+	"attributes": {
+		"items": {
+			"type": "array",
+			"default": [
+				"Shopify Development",
+				"WordPress Solutions",
+				"Custom Builds",
+				"Theme Migration",
+				"Plugin Development",
+				"Performance Optimization",
+				"E-Commerce Strategy",
+				"Inventory Automation"
+			]
+		},
+		"speed": {
+			"type": "number",
+			"default": 30
+		},
+		"separator": {
+			"type": "string",
+			"default": "dot"
+		}
+	},
+	"supports": {
+		"align": [ "full", "wide" ],
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		},
+		"typography": {
+			"fontSize": true
+		},
+		"html": false
+	},
+	"render": "file:./render.php",
+	"style": "file:./style.css",
+	"editorStyle": "file:./editor.css"
+}

@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+# Editor-specific overrides
+--------------------------------------------------------------*/
+
+/* Ensure terminal windows display correctly in editor */
+.editor-styles-wrapper .terminal-window {
+	background: #1a2634;
+	border: 1px solid #2b7a78;
+	border-radius: 8px;
+}
+
+.editor-styles-wrapper .terminal-bar {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 16px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+/* Section tag styling in editor */
+.editor-styles-wrapper .section-tag {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #3aafa9;
+}
+
+/* Service card styling in editor */
+.editor-styles-wrapper .service-card {
+	background: #1e2d3d;
+	border: 1px solid rgba(58, 175, 169, 0.2);
+	border-radius: 8px;
+	padding: 40px 32px;
+	position: relative;
+}
+
+/* Work card styling in editor */
+.editor-styles-wrapper .work-card {
+	background: #1e2d3d;
+	border: 1px solid rgba(58, 175, 169, 0.2);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+/* Value card styling in editor */
+.editor-styles-wrapper .value-card {
+	background: #1e2d3d;
+	border: 1px solid rgba(58, 175, 169, 0.2);
+	border-radius: 8px;
+	padding: 32px;
+}
+
+/* Ensure dark backgrounds display correctly for cream sections */
+.editor-styles-wrapper .has-cream-bg-background-color {
+	color: #546a7b;
+}
+
+.editor-styles-wrapper .has-cream-bg-background-color h1,
+.editor-styles-wrapper .has-cream-bg-background-color h2,
+.editor-styles-wrapper .has-cream-bg-background-color h3 {
+	color: #1a2634;
+}

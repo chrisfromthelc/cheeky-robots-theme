@@ -1,0 +1,9 @@
+/* Ticker bar front-end styles are in assets/css/blocks.css.
+ * This file is intentionally minimal to avoid duplication.
+ * WordPress auto-enqueues this via block.json "style" registration.
+ */
+
+.wp-block-cheeky-robots-ticker-bar {
+	overflow: hidden;
+	white-space: nowrap;
+}
