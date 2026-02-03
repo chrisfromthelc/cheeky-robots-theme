@@ -1,0 +1,53 @@
+/* Editor preview for the ticker bar - static display */
+
+.wp-block-cheeky-robots-ticker-bar {
+	overflow: hidden;
+	background: var(--cr-teal-dark, #2b7a78);
+	padding: 14px 0;
+	white-space: nowrap;
+	position: relative;
+}
+
+.wp-block-cheeky-robots-ticker-bar .ticker-scroll {
+	display: inline-flex;
+	/* No animation in editor - show static preview */
+	overflow-x: auto;
+	max-width: 100%;
+}
+
+.wp-block-cheeky-robots-ticker-bar .ticker-item {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	padding: 0 24px;
+	font-size: 0.875rem;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	white-space: nowrap;
+}
+
+.wp-block-cheeky-robots-ticker-bar .ticker-item em {
+	color: rgba(255, 255, 255, 0.6);
+	font-style: italic;
+	text-transform: none;
+}
+
+.wp-block-cheeky-robots-ticker-bar .ticker-dot {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #4ecdc4;
+	flex-shrink: 0;
+}
+
+/* Sidebar inspector styles */
+.components-panel__body .components-text-control__input {
+	width: 100%;
+}
+
+.components-panel__body .components-button.is-destructive {
+	width: 100%;
+	justify-content: center;
+}

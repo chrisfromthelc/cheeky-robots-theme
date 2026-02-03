@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ruleset name="Cheeky Robots Theme">
+	<description>WordPress coding standards for the Cheeky Robots theme.</description>
+
+	<file>functions.php</file>
+	<file>blocks/</file>
+	<file>patterns/</file>
+
+	<arg name="extensions" value="php"/>
+	<arg name="colors"/>
+	<arg value="sp"/>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+		<exclude name="Universal.Arrays.DisallowShortArraySyntax"/>
+	</rule>
+
+	<rule ref="WordPress.WP.CapitalPDangit">
+		<exclude-pattern>patterns/</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="cheeky-robots"/>
+			</property>
+		</properties>
+	</rule>
+
+	<config name="minimum_wp_version" value="6.7"/>
+	<config name="testVersion" value="8.1-"/>
+
+	<rule ref="PHPCompatibilityWP"/>
+</ruleset>
