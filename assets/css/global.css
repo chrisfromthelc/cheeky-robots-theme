@@ -17,6 +17,7 @@
 	--cr-card-bg: #1e2d3d;
 	--cr-terminal-bg: #1e1e1e;
 	--cr-terminal-font-size: 16px;
+	--cr-nav-font-size: 14px;
 	--cr-transition: 0.3s ease;
 }
 
@@ -238,13 +239,11 @@ img {
 }
 
 .stat-number {
-	font-family: var(--wp--preset--font-family--exo);
+	font-size: 40px;
 	font-weight: 400;
 	color: var(--wp--preset--color--white);
 	line-height: 1;
 	text-align: center;
-	text-transform: none;
-	letter-spacing: normal;
 }
 
 .stat-label {
@@ -449,7 +448,7 @@ img {
 .nav-cta.wp-block-button .wp-block-button__link {
 	padding: 8px 20px;
 	font-family: var(--wp--preset--font-family--share-tech-mono);
-	font-size: 11px;
+	font-size: var(--cr-nav-font-size);
 	color: var(--cr-primary-bg);
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -461,7 +460,7 @@ img {
 .site-logo-link {
 	text-decoration: none;
 	font-family: var(--wp--preset--font-family--michroma);
-	font-size: 13px;
+	font-size: 20px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: var(--wp--preset--color--white);
