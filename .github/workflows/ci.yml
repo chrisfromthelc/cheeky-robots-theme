@@ -69,6 +69,9 @@ jobs:
           extensions: mysqli
           tools: composer
 
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y subversion
+
       - name: Install dependencies
         run: composer install --no-progress --prefer-dist
 

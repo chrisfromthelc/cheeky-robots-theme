@@ -4,7 +4,10 @@
  * Slug: cheeky-robots/header
  * Categories: cheeky-robots
  * Block Types: core/template-part/header
+ *
+ * @package CheekyRobots
  */
+
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"primary-bg","className":"site-header","layout":{"type":"default"}} -->

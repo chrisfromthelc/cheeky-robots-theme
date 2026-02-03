@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-$items = $attributes['items'] ?? array();
+$items = $attributes['items'] ?? [];
 $speed = $attributes['speed'] ?? 30;
 
 if ( empty( $items ) ) {
@@ -19,9 +19,9 @@ if ( empty( $items ) ) {
 }
 
 $wrapper_attributes = get_block_wrapper_attributes(
-	array(
+	[
 		'style' => '--ticker-speed: ' . absint( $speed ) . 's;',
-	)
+	]
 );
 
 ?>

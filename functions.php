@@ -28,14 +28,14 @@ function cheeky_robots_enqueue_styles(): void {
 	wp_enqueue_style(
 		'cheeky-robots-global',
 		get_template_directory_uri() . '/assets/css/global.css',
-		array(),
+		[],
 		CHEEKY_ROBOTS_VERSION
 	);
 
 	wp_enqueue_style(
 		'cheeky-robots-blocks',
 		get_template_directory_uri() . '/assets/css/blocks.css',
-		array( 'cheeky-robots-global' ),
+		[ 'cheeky-robots-global' ],
 		CHEEKY_ROBOTS_VERSION
 	);
 }
@@ -45,7 +45,7 @@ add_action( 'wp_enqueue_scripts', 'cheeky_robots_enqueue_styles' );
  * Register the Case Study custom post type.
  */
 function cheeky_robots_register_case_study_cpt(): void {
-	$labels = array(
+	$labels = [
 		'name'                  => _x( 'Case Studies', 'Post type general name', 'cheeky-robots' ),
 		'singular_name'         => _x( 'Case Study', 'Post type singular name', 'cheeky-robots' ),
 		'menu_name'             => _x( 'Case Studies', 'Admin menu text', 'cheeky-robots' ),
@@ -62,9 +62,9 @@ function cheeky_robots_register_case_study_cpt(): void {
 		'filter_items_list'     => __( 'Filter case studies list', 'cheeky-robots' ),
 		'items_list_navigation' => __( 'Case studies list navigation', 'cheeky-robots' ),
 		'items_list'            => __( 'Case studies list', 'cheeky-robots' ),
-	);
+	];
 
-	$args = array(
+	$args = [
 		'labels'             => $labels,
 		'public'             => true,
 		'publicly_queryable' => true,
@@ -72,15 +72,15 @@ function cheeky_robots_register_case_study_cpt(): void {
 		'show_in_menu'       => true,
 		'show_in_rest'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'work' ),
+		'rewrite'            => [ 'slug' => 'work' ],
 		'capability_type'    => 'post',
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => 5,
 		'menu_icon'          => 'dashicons-portfolio',
-		'supports'           => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields' ),
-		'template'           => array(),
-	);
+		'supports'           => [ 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields' ],
+		'template'           => [],
+	];
 
 	register_post_type( 'cheeky_case_study', $args );
 }
@@ -92,9 +92,9 @@ add_action( 'init', 'cheeky_robots_register_case_study_cpt' );
 function cheeky_robots_register_pattern_categories(): void {
 	register_block_pattern_category(
 		'cheeky-robots',
-		array(
+		[
 			'label' => __( 'Cheeky Robots', 'cheeky-robots' ),
-		)
+		]
 	);
 }
 add_action( 'init', 'cheeky_robots_register_pattern_categories' );
