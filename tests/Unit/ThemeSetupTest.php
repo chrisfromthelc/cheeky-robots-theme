@@ -7,9 +7,7 @@
 
 declare(strict_types=1);
 
-use Yoast\PHPUnitPolyfills\TestCases\TestCase;
-
-class ThemeSetupTest extends TestCase {
+class ThemeSetupTest extends WP_UnitTestCase {
 
 	/**
 	 * Test that the global style handle is registered.

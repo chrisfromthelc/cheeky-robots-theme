@@ -7,9 +7,7 @@
 
 declare(strict_types=1);
 
-use Yoast\PHPUnitPolyfills\TestCases\TestCase;
-
-class PatternsTest extends TestCase {
+class PatternsTest extends WP_UnitTestCase {
 
 	/**
 	 * Pattern category should be registered.

@@ -7,9 +7,7 @@
 
 declare(strict_types=1);
 
-use Yoast\PHPUnitPolyfills\TestCases\TestCase;
-
-class BlocksTest extends TestCase {
+class BlocksTest extends WP_UnitTestCase {
 
 	/**
 	 * Test that the ticker-bar block is registered.

@@ -7,9 +7,7 @@
 
 declare(strict_types=1);
 
-use Yoast\PHPUnitPolyfills\TestCases\TestCase;
-
-class CaseStudyCPTTest extends TestCase {
+class CaseStudyCPTTest extends WP_UnitTestCase {
 
 	/**
 	 * Test that the case study CPT is registered.
