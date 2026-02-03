@@ -35,6 +35,13 @@ img {
 	display: block;
 }
 
+/* Remove gaps between adjacent full-width sections. */
+.wp-block-group.alignfull + .wp-block-group.alignfull,
+.wp-block-group.alignfull + .wp-block-ticker-bar,
+.wp-block-ticker-bar + .wp-block-group.alignfull {
+	margin-top: 0;
+}
+
 /*--------------------------------------------------------------
 # Section Tag / Label
 --------------------------------------------------------------*/
@@ -381,13 +388,24 @@ img {
 	color: var(--cr-blue-gray);
 }
 
-.has-cream-bg-background-color h1,
-.has-cream-bg-background-color h2,
-.has-cream-bg-background-color h3,
-.has-cream-bg-background-color h4,
-.has-cream-bg-background-color h5,
-.has-cream-bg-background-color h6 {
+.has-cream-bg-background-color > .wp-block-group h1,
+.has-cream-bg-background-color > .wp-block-group h2,
+.has-cream-bg-background-color > .wp-block-group > h1,
+.has-cream-bg-background-color > .wp-block-group > h2,
+.has-cream-bg-background-color > .wp-block-group > h3,
+.has-cream-bg-background-color > .wp-block-group > h4 {
 	color: var(--cr-primary-bg);
+}
+
+/* Keep card content white/light on cream sections. */
+.has-cream-bg-background-color .service-card,
+.has-cream-bg-background-color .work-card-body {
+	color: var(--cr-body-text);
+}
+
+.has-cream-bg-background-color .service-card h3,
+.has-cream-bg-background-color .work-card-body h3 {
+	color: var(--wp--preset--color--white);
 }
 
 /*--------------------------------------------------------------
