@@ -14,7 +14,9 @@
 <div class="wp-block-group alignfull site-header has-primary-bg-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","orientation":"horizontal"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-		<!-- wp:site-title {"level":0} /-->
+		<!-- wp:html -->
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-logo-link" aria-label="<?php esc_attr_e( 'Cheeky Robots - Home', 'cheeky-robots' ); ?>"><span class="site-logo">CHEEKY <span class="site-logo-accent">ROBOTS</span></span></a>
+		<!-- /wp:html -->
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal"}} -->
 		<div class="wp-block-group">

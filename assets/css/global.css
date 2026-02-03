@@ -243,6 +243,8 @@ img {
 	color: var(--wp--preset--color--white);
 	line-height: 1;
 	text-align: center;
+	text-transform: none;
+	letter-spacing: normal;
 }
 
 .stat-label {
@@ -441,12 +443,36 @@ img {
 # Header / Navigation Overrides
 --------------------------------------------------------------*/
 .site-header {
-	border-bottom: 1px solid var(--cr-border-color);
+	border-bottom: 1px solid rgba(58, 175, 169, 0.15);
 }
 
 .nav-cta.wp-block-button .wp-block-button__link {
 	padding: 8px 20px;
-	font-size: var(--wp--preset--font-size--small);
+	font-family: var(--wp--preset--font-family--share-tech-mono);
+	font-size: 11px;
+	color: var(--cr-primary-bg);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/*--------------------------------------------------------------
+# Site Logo (Header)
+--------------------------------------------------------------*/
+.site-logo-link {
+	text-decoration: none;
+	font-family: var(--wp--preset--font-family--michroma);
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: var(--wp--preset--color--white);
+}
+
+.site-logo-link:hover {
+	color: var(--wp--preset--color--white);
+}
+
+.site-logo-accent {
+	color: var(--cr-orange-accent);
 }
 
 /*--------------------------------------------------------------
