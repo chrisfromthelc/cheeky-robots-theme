@@ -41,7 +41,7 @@
 					<!-- wp:group {"className":"work-card-body","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 					<div class="wp-block-group work-card-body" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 						<!-- wp:heading {"level":3,"fontSize":"medium"} -->
-						<h3 class="wp-block-heading has-medium-font-size">Flash Cosmetics Theme Migration</h3>
+						<h3 class="wp-block-heading has-medium-font-size"><a href="/work/flash-cosmetics-theme-migration/">Flash Cosmetics Theme Migration</a></h3>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
@@ -85,7 +85,7 @@
 					<!-- wp:group {"className":"work-card-body","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 					<div class="wp-block-group work-card-body" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 						<!-- wp:heading {"level":3,"fontSize":"medium"} -->
-						<h3 class="wp-block-heading has-medium-font-size">Sessions Schedule Manager</h3>
+						<h3 class="wp-block-heading has-medium-font-size"><a href="/work/sessions-schedule-manager/">Sessions Schedule Manager</a></h3>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
@@ -133,7 +133,7 @@
 					<!-- wp:group {"className":"work-card-body","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 					<div class="wp-block-group work-card-body" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 						<!-- wp:heading {"level":3,"fontSize":"medium"} -->
-						<h3 class="wp-block-heading has-medium-font-size">Inventory Sync Automation</h3>
+						<h3 class="wp-block-heading has-medium-font-size"><a href="/work/inventory-sync-automation/">Inventory Sync Automation</a></h3>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
@@ -177,7 +177,7 @@
 					<!-- wp:group {"className":"work-card-body","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 					<div class="wp-block-group work-card-body" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 						<!-- wp:heading {"level":3,"fontSize":"medium"} -->
-						<h3 class="wp-block-heading has-medium-font-size">E-Commerce Strategy & Build</h3>
+						<h3 class="wp-block-heading has-medium-font-size"><a href="/work/ecommerce-strategy-build/">E-Commerce Strategy & Build</a></h3>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->

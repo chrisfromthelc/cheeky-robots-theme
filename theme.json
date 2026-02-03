@@ -85,17 +85,60 @@
 			"wideSize": "1200px"
 		},
 		"spacing": {
-			"units": [ "px", "rem", "em", "vh", "vw", "%" ],
+			"units": [
+				"px",
+				"rem",
+				"em",
+				"vh",
+				"vw",
+				"%"
+			],
 			"spacingSizes": [
-				{ "slug": "10", "size": "4px", "name": "4px" },
-				{ "slug": "20", "size": "8px", "name": "8px" },
-				{ "slug": "30", "size": "16px", "name": "16px" },
-				{ "slug": "40", "size": "24px", "name": "24px" },
-				{ "slug": "50", "size": "32px", "name": "32px" },
-				{ "slug": "60", "size": "48px", "name": "48px" },
-				{ "slug": "70", "size": "64px", "name": "64px" },
-				{ "slug": "80", "size": "96px", "name": "96px" },
-				{ "slug": "90", "size": "128px", "name": "128px" }
+				{
+					"slug": "10",
+					"size": "4px",
+					"name": "4px"
+				},
+				{
+					"slug": "20",
+					"size": "8px",
+					"name": "8px"
+				},
+				{
+					"slug": "30",
+					"size": "16px",
+					"name": "16px"
+				},
+				{
+					"slug": "40",
+					"size": "24px",
+					"name": "24px"
+				},
+				{
+					"slug": "50",
+					"size": "32px",
+					"name": "32px"
+				},
+				{
+					"slug": "60",
+					"size": "48px",
+					"name": "48px"
+				},
+				{
+					"slug": "70",
+					"size": "64px",
+					"name": "64px"
+				},
+				{
+					"slug": "80",
+					"size": "96px",
+					"name": "96px"
+				},
+				{
+					"slug": "90",
+					"size": "128px",
+					"name": "128px"
+				}
 			]
 		},
 		"typography": {
@@ -111,19 +154,25 @@
 							"fontFamily": "Exo",
 							"fontWeight": "300",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/exo/Exo-Light.woff2" ]
+							"src": [
+								"file:./assets/fonts/exo/Exo-Light.woff2"
+							]
 						},
 						{
 							"fontFamily": "Exo",
 							"fontWeight": "300",
 							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/exo/Exo-LightItalic.woff2" ]
+							"src": [
+								"file:./assets/fonts/exo/Exo-LightItalic.woff2"
+							]
 						},
 						{
 							"fontFamily": "Exo",
 							"fontWeight": "400",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/exo/Exo-Regular.woff2" ]
+							"src": [
+								"file:./assets/fonts/exo/Exo-Regular.woff2"
+							]
 						}
 					]
 				},
@@ -136,7 +185,9 @@
 							"fontFamily": "Michroma",
 							"fontWeight": "400",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/michroma/Michroma-Regular.woff2" ]
+							"src": [
+								"file:./assets/fonts/michroma/Michroma-Regular.woff2"
+							]
 						}
 					]
 				},
@@ -149,7 +200,9 @@
 							"fontFamily": "Share Tech Mono",
 							"fontWeight": "400",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/share-tech-mono/ShareTechMono-Regular.woff2" ]
+							"src": [
+								"file:./assets/fonts/share-tech-mono/ShareTechMono-Regular.woff2"
+							]
 						}
 					]
 				}
@@ -159,43 +212,64 @@
 					"slug": "small",
 					"size": "0.875rem",
 					"name": "Small",
-					"fluid": { "min": "0.8rem", "max": "0.875rem" }
+					"fluid": {
+						"min": "0.8rem",
+						"max": "0.875rem"
+					}
 				},
 				{
 					"slug": "medium",
 					"size": "1rem",
 					"name": "Medium",
-					"fluid": { "min": "0.9rem", "max": "1rem" }
+					"fluid": {
+						"min": "0.9rem",
+						"max": "1rem"
+					}
 				},
 				{
 					"slug": "large",
 					"size": "1.25rem",
 					"name": "Large",
-					"fluid": { "min": "1.1rem", "max": "1.25rem" }
+					"fluid": {
+						"min": "1.1rem",
+						"max": "1.25rem"
+					}
 				},
 				{
 					"slug": "x-large",
 					"size": "1.5rem",
 					"name": "Extra Large",
-					"fluid": { "min": "1.25rem", "max": "1.5rem" }
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					}
 				},
 				{
 					"slug": "xx-large",
 					"size": "2.25rem",
 					"name": "2X Large",
-					"fluid": { "min": "1.75rem", "max": "2.25rem" }
+					"fluid": {
+						"min": "1.75rem",
+						"max": "2.25rem"
+					}
 				},
 				{
 					"slug": "xxx-large",
 					"size": "3rem",
 					"name": "3X Large",
-					"fluid": { "min": "2rem", "max": "3rem" }
+					"fluid": {
+						"min": "2rem",
+						"max": "3rem"
+					}
 				},
 				{
 					"slug": "xxxx-large",
 					"size": "4rem",
 					"name": "4X Large",
-					"fluid": { "min": "2.5rem", "max": "4rem" }
+					"fluid": {
+						"min": "2.5rem",
+						"max": "4rem"
+					}
 				}
 			]
 		},
@@ -284,12 +358,12 @@
 		"blocks": {
 			"core/code": {
 				"color": {
-					"background": "var(--wp--preset--color--primary-bg)",
+					"background": "#1e1e1e",
 					"text": "var(--wp--preset--color--teal-primary)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--share-tech-mono)",
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "16px"
 				},
 				"border": {
 					"radius": "0",
@@ -378,17 +452,23 @@
 		{
 			"name": "page-about",
 			"title": "About",
-			"postTypes": [ "page" ]
+			"postTypes": [
+				"page"
+			]
 		},
 		{
 			"name": "page-services",
 			"title": "Services",
-			"postTypes": [ "page" ]
+			"postTypes": [
+				"page"
+			]
 		},
 		{
 			"name": "page-contact",
 			"title": "Contact",
-			"postTypes": [ "page" ]
+			"postTypes": [
+				"page"
+			]
 		}
 	]
 }

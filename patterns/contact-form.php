@@ -24,6 +24,10 @@
 				<p>Tell us about your project and we'll get back to you within 24 hours.</p>
 				<!-- /wp:paragraph -->
 
+				<!-- wp:image {"align":"center","sizeSlug":"medium","linkDestination":"none"} -->
+				<figure class="wp-block-image aligncenter size-medium"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/robots/robot-contact.png' ); ?>" alt="Contact Robot"/></figure>
+				<!-- /wp:image -->
+
 				<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px"}}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group" style="margin-top:40px">
 					<!-- wp:heading {"level":4} -->

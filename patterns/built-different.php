@@ -43,7 +43,7 @@
 				<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"}},"border":{"radius":"8px"}},"backgroundColor":"primary-bg-light","layout":{"type":"constrained"}} -->
 				<div class="wp-block-group has-primary-bg-light-background-color has-background" style="border-radius:8px;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
 					<!-- wp:image {"align":"center","sizeSlug":"large"} -->
-					<figure class="wp-block-image aligncenter size-large"><img src="" alt="Robot mascot"/></figure>
+					<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/robots/robot-no-bg.png' ); ?>" alt="Robot mascot"/></figure>
 					<!-- /wp:image -->
 				</div>
 				<!-- /wp:group -->

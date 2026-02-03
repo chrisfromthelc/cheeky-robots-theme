@@ -15,6 +15,7 @@
 	--cr-body-text: #c5d1dc;
 	--cr-border-color: rgba(58, 175, 169, 0.2);
 	--cr-card-bg: #1e2d3d;
+	--cr-terminal-bg: #1e1e1e;
 	--cr-transition: 0.3s ease;
 }
 
@@ -59,7 +60,7 @@ img {
 # Terminal Window
 --------------------------------------------------------------*/
 .terminal-window {
-	background: var(--cr-primary-bg);
+	background: var(--cr-terminal-bg);
 	border: 1px solid var(--cr-teal-dark);
 	border-radius: 8px;
 	overflow: hidden;
@@ -95,7 +96,7 @@ img {
 
 .terminal-title {
 	font-family: var(--wp--preset--font-family--share-tech-mono);
-	font-size: var(--wp--preset--font-size--small);
+	font-size: 16px;
 	color: var(--cr-blue-gray);
 	margin-left: 8px;
 }
@@ -106,7 +107,7 @@ img {
 
 .terminal-body code {
 	font-family: var(--wp--preset--font-family--share-tech-mono);
-	font-size: var(--wp--preset--font-size--small);
+	font-size: 16px;
 	color: var(--cr-teal-primary);
 	line-height: 1.8;
 	white-space: pre-wrap;
@@ -338,7 +339,7 @@ img {
 --------------------------------------------------------------*/
 .cta-terminal-line {
 	font-family: var(--wp--preset--font-family--share-tech-mono);
-	font-size: var(--wp--preset--font-size--small);
+	font-size: 16px;
 	color: var(--cr-teal-dark);
 	text-align: center;
 }
@@ -524,6 +525,10 @@ img {
 }
 
 @media (max-width: 768px) {
+	.nav-cta {
+		display: none;
+	}
+
 	.timeline-container {
 		padding-left: 32px;
 	}

@@ -43,7 +43,7 @@
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"className":"service-link"} -->
-					<p class="service-link"><a href="#">Learn More →</a></p>
+					<p class="service-link"><a href="/services/shopify-development/">Learn More →</a></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -67,7 +67,7 @@
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"className":"service-link"} -->
-					<p class="service-link"><a href="#">Learn More →</a></p>
+					<p class="service-link"><a href="/services/wordpress-plugin-development/">Learn More →</a></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -91,7 +91,7 @@
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"className":"service-link"} -->
-					<p class="service-link"><a href="#">Learn More →</a></p>
+					<p class="service-link"><a href="/services/custom-web-solutions/">Learn More →</a></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

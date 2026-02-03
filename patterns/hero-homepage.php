@@ -45,7 +45,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%">
 				<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img src="/assets/images/robot-placeholder.png" alt="Cheeky Robot"/></figure>
+				<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/robots/robot-laser-zap.png' ); ?>" alt="Cheeky Robot"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:column -->
