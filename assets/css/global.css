@@ -16,6 +16,7 @@
 	--cr-border-color: rgba(58, 175, 169, 0.2);
 	--cr-card-bg: #1e2d3d;
 	--cr-terminal-bg: #1e1e1e;
+	--cr-terminal-font-size: 16px;
 	--cr-transition: 0.3s ease;
 }
 
@@ -96,7 +97,7 @@ img {
 
 .terminal-title {
 	font-family: var(--wp--preset--font-family--share-tech-mono);
-	font-size: 16px;
+	font-size: var(--cr-terminal-font-size);
 	color: var(--cr-blue-gray);
 	margin-left: 8px;
 }
@@ -107,7 +108,7 @@ img {
 
 .terminal-body code {
 	font-family: var(--wp--preset--font-family--share-tech-mono);
-	font-size: 16px;
+	font-size: var(--cr-terminal-font-size);
 	color: var(--cr-teal-primary);
 	line-height: 1.8;
 	white-space: pre-wrap;
@@ -339,7 +340,7 @@ img {
 --------------------------------------------------------------*/
 .cta-terminal-line {
 	font-family: var(--wp--preset--font-family--share-tech-mono);
-	font-size: 16px;
+	font-size: var(--cr-terminal-font-size);
 	color: var(--cr-teal-dark);
 	text-align: center;
 }
